@@ -1,5 +1,5 @@
 <?php
-if($_POST["message"]) {
-    mail("briantaylorjohnson@gmail.com", "Form to email message", $_POST["message"], "From: " + $POST["name"] + " (" + $POST["email"] + ")" );
+if($_GET["message"]) {
+    mail("briantaylorjohnson@gmail.com", "Form to email message", $_GET["message"], "From: " + $GET["name"] + " (" + $GET["email"] + ")" );
 }
 ?>
