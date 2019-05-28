@@ -6,10 +6,7 @@ body{
     margin-bottom: 0px;
        
 }
-#header-span{
-    background-color: #ffffff;
-    height: 81px;
-}
+
 header{
     background-color: #ffffff;
     overflow: hidden;
@@ -34,6 +31,33 @@ p{
     line-height: 2;
     font-weight: 80;
     
+}
+
+.content-frame{
+    width: 960px;
+    height: 550px;
+    padding: 5px 15px 5px 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    margin: auto;
+    background-color:#ffffff;
+}
+
+.footer{
+    height: 50px;   
+    background-color: #666666;
+}
+
+.main-content-rail{
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #dddddd;
+    padding-top: 25px;
+    background-image: url(light_wool_tile.png);
+    background-repeat: repeat;
+    background-color: #ffffff;
+    height: 700px;  
 }
 
 .navigation{
@@ -66,14 +90,22 @@ p{
     
 }
 
-#owner-name{
+.toe-socks{
+    height: 7px;
     background-color: #4aaaa5;
-    float: left;    
-    padding: 20px 35px 20px 35px;
+}
+
+#copyright{
     color: #ffffff;
-    font-size: 36px;
+    font-size: 14px;
+    text-align: center;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    
+    padding-top: 10px;
+}
+
+#header-span{
+    background-color: #ffffff;
+    height: 81px;
 }
 
 #horizon-bar{
@@ -85,12 +117,14 @@ p{
     padding-bottom: 5px;
 }
 
-#copyright{
+#owner-name{
+    background-color: #4aaaa5;
+    float: left;    
+    padding: 20px 35px 20px 35px;
     color: #ffffff;
-    font-size: 14px;
-    text-align: center;
+    font-size: 36px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    padding-top: 10px;
+    
 }
 
 #profile-pic{
@@ -99,36 +133,4 @@ p{
     padding-right: 30px;
     padding-bottom: 15px;
     float: left;
-}
-
-.main-content-rail{
-    border-top-style: solid;
-    border-top-width: 2px;
-    border-top-color: #dddddd;
-    padding-top: 25px;
-    background-image: url(light_wool_tile.png);
-    background-repeat: repeat;
-    background-color: #ffffff;
-    height: 700px;  
-}
-
-.content-frame{
-    width: 960px;
-    height: 550px;
-    padding: 5px 15px 5px 15px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #dddddd;
-    margin: auto;
-    background-color:#ffffff;
-}
-
-.toe-socks{
-    height: 7px;
-    background-color: #4aaaa5;
-}
-
-.footer{
-    height: 50px;   
-    background-color: #666666;
 }
