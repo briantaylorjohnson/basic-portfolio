@@ -57,6 +57,20 @@ p{
     background-color: #666666;
 }
 
+.header-span{
+    background-color: #ffffff;
+    height: 81px;
+}
+
+.horizon-bar{
+    border-top-width: 3px;
+    border-top-color: #dddddd;
+    border-top-style: solid;
+    width: 934px;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
 .main-content-rail{
     border-top-style: solid;
     border-top-width: 2px;
@@ -98,25 +112,6 @@ p{
     
 }
 
-.toe-socks{
-    height: 7px;
-    background-color: #4aaaa5;
-}
-
-.header-span{
-    background-color: #ffffff;
-    height: 81px;
-}
-
-.horizon-bar{
-    border-top-width: 3px;
-    border-top-color: #dddddd;
-    border-top-style: solid;
-    width: 934px;
-    margin: auto;
-    padding-bottom: 5px;
-}
-
 .owner-name{
     background-color: #4aaaa5;
     float: left;    
@@ -125,6 +120,11 @@ p{
     font-size: 36px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     
+}
+
+.toe-socks{
+    height: 7px;
+    background-color: #4aaaa5;
 }
 
 #profile-pic{
