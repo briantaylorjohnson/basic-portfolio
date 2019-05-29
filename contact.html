@@ -6,47 +6,40 @@
             <title></title>
     </head>
     <body>
-        <div class="header-span">
-        <header class="main-nav">
-            <a class="owner-name">Taylor Johnson</a>
-
-            <a class="navigation" href="contact.html">Contact</a>
-
-            <a class="nav-spacer"> | </a>
-
-            <a class="navigation" href="portfolio.html">Portfolio</a>
-
-            <a class="nav-spacer"> | </a>
-
-            <a class="navigation" href="index.html">About</a>
-        </header>
-    </div>
-        <div class="main-content-rail" >
-            <div class="content-frame">
-                <h1>Contact</h1>
-                <div class="horizon-bar"></div>
-                <div>
-                    <form method="get" action="email.php">
-                        <p>Name<br /><input type="text" name="name"> </p>
-                        <p>Email<br /><input type="text" name="email"></p>
-                        <p>Message<br />
-                        <textarea name="message" rows="10" cols="50">
-                            Enter message here.
-                        </textarea></p>
-                        <br />
-                        <input type="submit" value="Submit">
-                    </form>
+        <div class="page-container">
+            <div class="content-wrap">
+                <div class="header-span">
+                    <header class="main-nav">
+                        <a class="owner-name">Taylor Johnson</a>
+                        <a class="navigation" href="contact.html">Contact</a>
+                        <a class="nav-spacer"> | </a>
+                        <a class="navigation" href="portfolio.html">Portfolio</a>
+                        <a class="nav-spacer"> | </a>
+                        <a class="navigation" href="index.html">About</a>
+                    </header>
+                </div>
+                <div class="main-content-rail" >
+                    <div class="content-frame">
+                        <h1>Contact</h1>
+                        <div class="horizon-bar"></div>
+                        <div>
+                            <form method="get" action="email.php">
+                                <p class="contact-form">Name<br /><input class="contact-inputbox" type="text" name="name"> </p>
+                                <p class="contact-form">Email<br /><input class="contact-inputbox" type="text" name="email"></p>
+                                <p class="contact-form">Message<br />
+                                <textarea id="contact-textarea" name="message" rows="10" cols="50">Enter message here.</textarea></p>
+                                <div id="submit-padding">
+                                    <input class="submit-button" type="submit" value="Submit">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="toe-socks"></div>
+                    <div class="copyright"> &#169; 2019 by Brian Taylor Johnson. All rights reserved.</div>
                 </div>
             </div>
-
         </div>
-        <div class="footer">
-            <div class="toe-socks"></div>
-            <div class="copyright"> &#169; 2019 by Brian Taylor Johnson. All rights reserved.</div>
-        </div>
-
-
-
     </body>
-
 </html>

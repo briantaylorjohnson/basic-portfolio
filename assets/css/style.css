@@ -1,5 +1,5 @@
 body{
-    background-color: #666666;
+    background-image: url(light_wool_tile.png);
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -10,7 +10,7 @@ body{
 header{
     background-color: #ffffff;
     overflow: hidden;
-    width: 990px;
+    max-width: 990px;
     margin: auto;
 }
 
@@ -33,9 +33,14 @@ p{
     
 }
 
+.contact-inputbox{
+    border: 1px solid #dddddd;
+    width: 100%;
+}
+
 .content-frame{
-    width: 960px;
-    height: 550px;
+    max-width: 960px;
+    min-height: 450px;
     padding: 5px 15px 5px 15px;
     border-style: solid;
     border-width: 1px;
@@ -52,9 +57,26 @@ p{
     padding-top: 10px;
 }
 
-.footer{
-    height: 50px;   
+.contact-form{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #777777;
+    font-size: 18px;
+    line-height: normal;
+    font-weight: 80;
+}
+
+.content-wrap{
+    padding-bottom: 2.5rem;
+}
+
+.footer{  
     background-color: #666666;
+    position: absolute;  
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;           
 }
 
 .header-span{
@@ -66,7 +88,7 @@ p{
     border-top-width: 3px;
     border-top-color: #dddddd;
     border-top-style: solid;
-    width: 934px;
+    max-width: 934px;
     margin: auto;
     padding-bottom: 5px;
 }
@@ -79,7 +101,8 @@ p{
     background-image: url(light_wool_tile.png);
     background-repeat: repeat;
     background-color: #ffffff;
-    height: 700px;  
+    min-height: 300px; 
+    padding-bottom: 25px;
 }
 
 .navigation{
@@ -104,7 +127,7 @@ p{
     padding-left: 2px;
     padding-right: 2px;
     font-size: 20px;
-    color: #777777;
+    color: #dddddd;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -122,9 +145,33 @@ p{
     
 }
 
+.page-container{
+    position: relative;
+    min-height: 100vh;
+}
+
+.submit-button{
+    background-color: #4aaaa5;
+    border: none;
+    color: #fff;
+    padding: 5px 32px;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+
 .toe-socks{
     height: 7px;
     background-color: #4aaaa5;
+}
+
+#contact-textarea{
+    margin-top: 4px;
+    border: 1px solid #dddddd;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 100%;
 }
 
 #profile-pic{
@@ -134,3 +181,9 @@ p{
     padding-bottom: 15px;
     float: left;
 }
+
+#submit-padding{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
