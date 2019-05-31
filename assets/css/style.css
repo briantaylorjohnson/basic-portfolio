@@ -150,6 +150,23 @@ p{
     min-height: 100vh;
 }
 
+.portfolio-item{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.portfolio-item-name{
+    position: relative;
+    top: 135px;
+    z-index: 1;
+    background: #4aaaa5;
+    width: 150px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 .submit-button{
     background-color: #4aaaa5;
     border: none;
