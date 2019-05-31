@@ -47,6 +47,7 @@ p{
     border-color: #dddddd;
     margin: auto;
     background-color:#ffffff;
+    overflow: auto;
 }
 
 .copyright{
@@ -150,10 +151,20 @@ p{
     min-height: 100vh;
 }
 
+.portfolio-container{
+    width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: fit-content;
+    padding-bottom: 18px;
+}
+
 .portfolio-item{
     float: left;
     width: 33%;
     text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 .portfolio-item-name{
