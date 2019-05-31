@@ -173,9 +173,11 @@ p{
     z-index: 1;
     background: #4aaaa5;
     width: 150px;
+    height: 25px;
     margin: 0 auto;
     color: #FFFFFF;
     text-decoration: none;
+    padding-top: 8px;
 }
 
 .submit-button{
